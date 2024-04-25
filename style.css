@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ubuntu&display=swap');
+
+*,
+html {
+    margin: 10px;
+    padding: 0;
+}
+
+.heading-container {
+    background-color: white;
+
+}
+
+.img-thumbnail {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.heading1 {
+    font-size: 30px;
+    color: green;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.content-container {
+    background: rgba(0, 128, 0, 0.6);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-heading {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    position: y;
+}
+
+.img-content {
+    width: 650px;
+    height: 400px;
+    float: right;
+}
+
+.content1 {
+    font-family: 'Ubuntu', sans-serif;
+    height: 500px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.content-container2 {
+    background: rgba(0, 128, 0, 0.6);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-heading2 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.img-content2 {
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-right: 15px;
+}
+
+.content2 {
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: right;
+    align-items: right;
+    text-align: justify;
+}
+
+.footer-container {
+    background-color: aliceblue;
+    width: 600px;
+    height: 220px;
+}
+
+.img-footer {
+    float: left;
+}
+
+.footer {
+    font-family: sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.button {
+    padding: 15px 25px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+
+.button:hover {
+    transition: .2s ease-in-out;
+    transition-delay: .2s;
+    transform: translateY(3px);
+}
+.button:active {
+    transform: scale(0.96);
+}
+
+.watermark {
+    float: right
+}
